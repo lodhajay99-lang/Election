@@ -1,0 +1,27 @@
+{
+  "name": "bharat-votes",
+  "version": "1.0.0",
+  "description": "An interactive guide to Indian elections powered by AI.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "deploy": "gcloud run deploy bharat-votes --source . --region us-central1 --allow-unauthenticated",
+    "lint": "npx eslint ."
+  },
+  "devDependencies": {
+    "vitest": "^1.0.0",
+    "jsdom": "^22.1.0",
+    "eslint": "^8.0.0"
+  },
+  "keywords": [
+    "election",
+    "india",
+    "gemini",
+    "ai",
+    "democracy"
+  ],
+  "author": "Jay Lodha",
+  "license": "MIT"
+}
